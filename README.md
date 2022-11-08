@@ -42,7 +42,7 @@ else
     style: TextStyle(color: Colors.blue),
     ),
 ``` 
-3. Membuat method untuk implementasi buttomn mengurangi counter
+3. Membuat method untuk implementasi button mengurangi counter
 ```
  void _decrementCounter() {
     setState(() {
