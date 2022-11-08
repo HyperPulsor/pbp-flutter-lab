@@ -24,7 +24,9 @@ Stateful Widget -> dapat diartikan sebagai suatu widget yang terpengaruh oleh *s
 
 ***4. Jelaskan perbedaan antara const dengan final.***
 
-`const` merupakan *variable modifier* yang menetapkan bahwa variabel tersebut sifatnya sudah tetap dan tidak bisa diubah (konstan). Variabel dengan nilai ini diidentifikasi saat *compile time* sehingga tidak bisa diubah lagi. `final` memiliki definisi yang sama dengan `const`, tetapi `final` diidentifikasi tidak saat *compile time* sehingga nilai dari variabel masih dapat berubah saat *compile time*.
+`const` merupakan *modifier* yang menetapkan bahwa value tersebut sifatnya sudah tetap dan tidak bisa diubah (konstan). Variabel dengan nilai ini harus diidentifikasi saat *compile time* sehingga tidak bisa diubah lagi.
+
+`final` merupakan *modifier* yang menetapkan bahwa variabel tersebut sifatnya sudah tetap dan tidak bisa diubah, tetapi `final` diidentifikasi tidak harus saat *compile time* sehingga nilai dari variabel masih dapat berubah.
 
 ***5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.***
 
