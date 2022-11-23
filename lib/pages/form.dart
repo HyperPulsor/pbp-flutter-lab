@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:counter_7/main.dart';
-import 'package:counter_7/show.dart';
-import 'package:counter_7/watch.dart';
+import 'package:counter_7/pages/show.dart';
+import 'package:counter_7/pages/watch.dart';
 
 class MyFormPage extends StatefulWidget {
   const MyFormPage({super.key});

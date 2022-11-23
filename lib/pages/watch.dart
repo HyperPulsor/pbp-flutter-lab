@@ -1,11 +1,11 @@
-import 'package:counter_7/show_desc.dart';
+import 'package:counter_7/pages/show_desc.dart';
 import 'package:flutter/material.dart';
 import 'package:counter_7/main.dart';
-import 'package:counter_7/form.dart';
-import 'package:counter_7/show.dart';
+import 'package:counter_7/pages/form.dart';
+import 'package:counter_7/pages/show.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:counter_7/models.dart';
+import 'package:counter_7/model/models.dart';
 
 class MyWatchPage extends StatefulWidget {
   const MyWatchPage({super.key});

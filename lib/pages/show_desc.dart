@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:counter_7/main.dart';
-import 'package:counter_7/form.dart';
-import 'package:counter_7/show.dart';
-import 'package:counter_7/models.dart';
-import 'package:counter_7/watch.dart';
+import 'package:counter_7/pages/form.dart';
+import 'package:counter_7/pages/show.dart';
+import 'package:counter_7/model/models.dart';
+import 'package:counter_7/pages/watch.dart';
 
 class MyDetailPage extends StatefulWidget {
   const MyDetailPage({super.key, required this.modelWatchList});
