@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:counter_7/main.dart';
 import 'package:counter_7/form.dart';
+import 'package:counter_7/watch.dart';
 
 class MyShowPage extends StatefulWidget {
   const MyShowPage({super.key});
@@ -45,6 +46,15 @@ class _MyShowPageState extends State<MyShowPage> {
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(builder: (context) => const MyShowPage()),
+                  );
+                },
+              ),
+              ListTile(
+                title: Text('My Watch List'),
+                onTap: () {
+                  Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(builder: (context) => const MyWatchPage()),
                   );
                 },
               ),

@@ -1,6 +1,8 @@
 import 'package:counter_7/show.dart';
 import 'package:flutter/material.dart';
 import 'package:counter_7/form.dart';
+import 'package:counter_7/watch.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -111,6 +113,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(builder: (context) => const MyShowPage()),
+                  );
+                },
+              ),
+              ListTile(
+                title: Text('My Watch List'),
+                onTap: () {
+                  Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(builder: (context) => const MyWatchPage()),
                   );
                 },
               ),
